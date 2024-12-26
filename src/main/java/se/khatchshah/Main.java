@@ -4,9 +4,11 @@ import javax.swing.*;
 
 public class Main {
     public static void main(String[] args) {
-        Object myBrowser = new TheBrowser();
+        TheBrowser myBrowser = new TheBrowser();
         //myBrowser.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        System.out.println("Hello, World!");
+        //System.out.println("Hello, World!");
+        myBrowser.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
 
     }
 }
